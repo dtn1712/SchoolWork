@@ -1,0 +1,7 @@
+Program Brief Description:
+_The source code ram.cpp include the implementation of STI and JMN method
+_The program return the largest item in the array of 5 elements
+
+Instruction:
+_Run by Visual Studio or G++
+_If run by G++, use this command: g++ -Wall ram.cpp main.cpp -o main.o && ./main.o

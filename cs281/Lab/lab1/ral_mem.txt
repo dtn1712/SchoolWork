@@ -1,0 +1,11 @@
+1   0  ; constant 0
+2   1  ; constant 1
+3   6  ; iterator
+4   11 ; size array
+5   0  ; temporary variable
+6   9  ; array element 1
+7   7  ; array element 2
+8   3  ; array element 3
+9   1  ; array element 4
+10  4  ; array element 5 
+11  0  ; result

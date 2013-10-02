@@ -1,0 +1,18 @@
+; max = A[0]
+; for (int i = 0; i < n; i++)
+;	if (max < A[i]) max = A[i]
+
+LDI 3; Load the value of array first element
+STA 11; Store the maxium variable with that value
+LDA 3; Load the iterator value
+ADD 2; Increment the iterator
+STA 3; Save iterator value
+SUB 4; AC <- AC - size array
+JMZ 14; if AC == 0 -> loop end, go to halt instruction
+LDI 3; Load value of array iterator
+STA 5; Store into temporary variable
+LDA 11; Load max variable
+SUB 5; AC <- AC - temporary variable
+JMN 1; Assign new value for variable max 
+JMP 3; Repeat the loop
+HLT  ;
